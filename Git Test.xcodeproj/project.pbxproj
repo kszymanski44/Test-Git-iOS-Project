@@ -22,6 +22,7 @@
 		27AB482D1915A7CD00C4518A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27AB482B1915A7CD00C4518A /* InfoPlist.strings */; };
 		27AB482F1915A7CD00C4518A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB482E1915A7CD00C4518A /* Git_TestTests.m */; };
 		27AB483A1915AA5500C4518A /* KSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB48391915AA5500C4518A /* KSTest.m */; };
+		27AB483D1915ACC800C4518A /* KSThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB483C1915ACC800C4518A /* KSThing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		27AB482E1915A7CD00C4518A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
 		27AB48381915AA5500C4518A /* KSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTest.h; sourceTree = "<group>"; };
 		27AB48391915AA5500C4518A /* KSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTest.m; sourceTree = "<group>"; };
+		27AB483B1915ACC800C4518A /* KSThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSThing.h; sourceTree = "<group>"; };
+		27AB483C1915ACC800C4518A /* KSThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSThing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 			children = (
 				27AB48381915AA5500C4518A /* KSTest.h */,
 				27AB48391915AA5500C4518A /* KSTest.m */,
+				27AB483B1915ACC800C4518A /* KSThing.h */,
+				27AB483C1915ACC800C4518A /* KSThing.m */,
 				27AB48091915A7CD00C4518A /* Git Test */,
 				27AB48281915A7CD00C4518A /* Git TestTests */,
 				27AB48021915A7CD00C4518A /* Frameworks */,
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AB483D1915ACC800C4518A /* KSThing.m in Sources */,
 				27AB481A1915A7CD00C4518A /* KSViewController.m in Sources */,
 				27AB483A1915AA5500C4518A /* KSTest.m in Sources */,
 				27AB48141915A7CD00C4518A /* KSAppDelegate.m in Sources */,
@@ -463,6 +469,7 @@
 				27AB48341915A7CD00C4518A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AB48351915A7CD00C4518A /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +478,7 @@
 				27AB48371915A7CD00C4518A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
